@@ -38,3 +38,6 @@ The end product should look like this:
 ![enter image description here](https://i.imgur.com/wtpweoB.png)
 
 "checkInterval" is the amount of miliseconds the Service waits until its searching for a GPU again.
+
+# Logging
+The Service logs to the Windows Event System, simply open the Event-Viewer and Search for the Application "Thunderbolt3TryAndError"
